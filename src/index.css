@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; 
+}
+
+th {
+  width: 120px;
+  padding-top:25px;
+  padding-bottom:30px;
+}
+
+td {
+  padding: 5px;
+}
+
+.time {
+  height: 40px;
+}
+
+/* Base style for the Event component */
+.Event {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.Event:hover {
+  transform: scale(1.05);
+}
+
+/* Vibrant color backgrounds */
+.Event.pink {
+  background-color: #ff69b4; /* Vibrant pink */
+}
+
+.Event.blue {
+  background-color: #1e90ff; /* Vibrant blue */
+}
+
+.Event.green {
+  background-color: #32cd32; /* Vibrant green */
+}
+
+/* Style for the <h5> element inside the Event */
+.Event h5 {
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+}
+
